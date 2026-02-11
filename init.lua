@@ -796,6 +796,20 @@ require('lazy').setup({
     },
   },
 
+  {
+    'projekt0n/github-nvim-theme',
+    name = 'github-theme',
+  },
+  {
+    'f-person/auto-dark-mode.nvim',
+    opts = {
+      set_dark_mode = function() colorscheme = github_dark_colorblind end,
+      set_light_mode = function() colorscheme = github_light_colorblind end,
+      update_interval = 500,
+      fallback = 'dark',
+    },
+  },
+
   { -- You can easily change to a different colorscheme.
     -- Change the name of the colorscheme plugin below, and then
     -- change the command in the config to whatever the name of that colorscheme is.
