@@ -628,7 +628,11 @@ require('lazy').setup({
       vim.lsp.enable 'clangd'
     end,
   },
-
+  {
+    'mrcjkb/rustaceanvim',
+    version = '^8', -- Recommended
+    lazy = false, -- This plugin is already lazy
+  },
   { -- Autoformat
     'stevearc/conform.nvim',
     event = { 'BufWritePre' },
