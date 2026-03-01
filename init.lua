@@ -565,6 +565,7 @@ require('lazy').setup({
       local servers = {
         clangd = {},
         qmlls = {},
+        glsl_analyzer = {},
         -- clangd = {},
         -- gopls = {},
         -- pyright = {},
