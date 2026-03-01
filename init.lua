@@ -564,6 +564,7 @@ require('lazy').setup({
       --  See `:help lsp-config` for information about keys and how to configure
       local servers = {
         clangd = {},
+        qmlls = {},
         -- clangd = {},
         -- gopls = {},
         -- pyright = {},
